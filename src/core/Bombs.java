@@ -4,9 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Bombs {
-    public static int[][] getBombs(int countBomb, int countCell){
-        countBomb = 2; ///!!!!!
+class Bombs {
+    static int[][] getBombs(int countBomb, int countCell){
         int[][] bombs = new int[countCell][countCell];
 
         int start = 0;
